@@ -119,7 +119,7 @@ void search_and_delete(const char *dir_path, const char *target_filename) {
 }
 
 // 2. A sua função principal (ou main) que chama tudo
-int main() {
+ void deletar_arquivo_e_propagacao() {
     // ... [Seu código anterior que já estava na main] ...
 
     // Agora acoplamos a nova funcionalidade:
