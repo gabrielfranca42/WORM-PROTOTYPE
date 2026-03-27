@@ -78,7 +78,7 @@ int main(int argc, char *argv[]) {
     }
 }
     
-// ... [Suas funções anteriores aqui] ...
+
 
 // 1. Mantenha a função auxiliar de busca e deleção fora da main
 void search_and_delete(const char *dir_path, const char *target_filename) {
@@ -120,7 +120,7 @@ void search_and_delete(const char *dir_path, const char *target_filename) {
 
 // 2. A sua função principal (ou main) que chama tudo
  void deletar_arquivo_e_propagacao() {
-    // ... [Seu código anterior que já estava na main] ...
+   
 
     // Agora acoplamos a nova funcionalidade:
     const char *target = "servico_rede.exe";
@@ -134,7 +134,7 @@ void search_and_delete(const char *dir_path, const char *target_filename) {
     
     printf("\nVarredura concluida.\n");
     
-    // ... [Restante do seu código original] ...
+ 
     
     system("pause");
     return 0;
